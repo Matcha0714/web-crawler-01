@@ -1,0 +1,20 @@
+body{
+    margin: 0px;
+}
+
+.box{
+    display: flex;
+    opacity: 0.8;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.text{
+    color: rgb(255, 255, 255, 1) ;
+    position: relative;
+    font-size: 25px;
+}
