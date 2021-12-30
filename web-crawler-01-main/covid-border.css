@@ -1,0 +1,32 @@
+.covid-border{
+    background-color: rgb(196, 255, 235);
+    width: 1000px;
+}
+
+.top-text{
+    background-color: rgb(102, 102, 102);
+    border-bottom: solid 5px rgb(151, 151, 151); 
+    color: white;
+    text-align: center; 
+    margin: 0px; 
+    font-size: 40px;
+}
+
+.box{
+    border: solid 5px gray;
+    background-color: rgb(75, 75, 75);
+    display: flex;
+    opacity: 0.8;
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.text{
+    color: rgb(255, 255, 255) ;
+    position: relative;
+    font-size: 25px;
+}
