@@ -1,0 +1,95 @@
+.menu-wrap {
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    width: 100%;
+    text-align: left;
+    background: #10345A;
+    left: 0px;
+  }
+  .menu {
+    width: 100%;
+    margin: 0px;
+    text-align: left;
+  }
+  .menu ul {
+    margin:0px;
+  }
+  .menu li {
+    margin: 0px;
+    list-style: none;
+  }
+  .menu a {
+    transition: all linear 0.15s;
+    color: white;/*menu-font*/
+    font-family: Arial, 標楷體;
+  }
+  .menu li:hover > a,
+  .menu .current-item > a {
+    text-decoration: none;
+    color: white;
+    background-color: #FF6600;
+  }
+  .menu .arrow {
+    font-size: 15px;/*icon*/
+    line-height: 0%;
+  }
+  /*----- Top Level -----*/
+  
+  .menu > ul > li {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+  }
+  .menu > ul > li > a {/*menu-font*/
+    padding: 8px 20px 8px;
+    display: inline-block;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+  }
+  .menu > ul > li:hover > a,
+  .menu > ul > .current-item > a {
+    background: #10345A;
+    color: #FF6600;
+  }
+  /*----- Bottom Level -----*/
+  
+  /* ADD THESE */
+  @-webkit-keyframes fadeIn {
+      from { opacity: 0; }
+        to { opacity: 1; }
+  }
+  @keyframes fadeIn {
+      from { opacity: 0; }
+        to { opacity: 1; }
+  }
+  .menu li:hover .sub-menu {
+    z-index: 1;
+    display: block; /* ADD ME */
+    -webkit-animation: fadeIn 0.15s; /* ADD ME */
+    animation: fadeIn 0.15s; /* ADD ME */
+  }
+  .sub-menu {
+    width: 400px;
+    padding: 5px 0px;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    z-index: 0;
+    background: gray;
+    display: none; /* ADD ME */
+  }
+  .sub-menu li {
+    display: block;
+    font-size: 16px;
+  }
+  .sub-menu li a {
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+  }
+  .sub-menu li a:hover,
+  .sub-menu .current-item a {
+    background: #10345A;
+    color: #FF6600;
+  }

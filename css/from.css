@@ -1,0 +1,26 @@
+.from{
+    display: box;
+    position: relative;
+    top: 45px;
+    height: 2000px;
+    width: 1000px;
+    background-color: rgb(255, 255, 255); 
+    margin: auto;
+    border: solid rgb(197, 197, 197) 1px;
+    border-radius: 10px;
+    padding: 20px 0px 20px 0px;
+}
+
+.from-title{
+    margin: auto;
+    width: 95%;
+    height: 15%;
+    background-color: rgb(120, 161, 238);
+}
+
+.from-information{
+    margin: auto;
+    width: 95%;
+    height: 85%;
+    background-color: rgb(238, 201, 120);
+}
