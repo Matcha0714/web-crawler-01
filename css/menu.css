@@ -1,16 +1,12 @@
 .menu-wrap {
     position: fixed;
     z-index: 4;
-    top: 0;
     width: 100%;
-    text-align: left;
     background: #10345A;
-    left: 0px;
+    padding-left: 400px;
   }
   .menu {
-    width: 100%;
     margin: 0px;
-    text-align: left;
   }
   .menu ul {
     margin:0px;
@@ -70,7 +66,7 @@
     animation: fadeIn 0.15s; /* ADD ME */
   }
   .sub-menu {
-    width: 400px;
+    width: 200px;
     padding: 5px 0px;
     position: absolute;
     top: 100%;

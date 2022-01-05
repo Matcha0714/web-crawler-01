@@ -15,12 +15,65 @@
     margin: auto;
     width: 95%;
     height: 15%;
-    background-color: rgb(120, 161, 238);
+    position: relative;
+}
+
+.from-title > img{
+    width: 100%; 
+    position: absolute; 
+}
+
+.from-title > h1{
+    margin: 0px;
+    padding: 40px 0px 55px;
+    text-align: center;
+    font-size: 40px; 
+    font-weight: bold; 
+    position: relative; 
+    color: white;
+}
+
+.from-title > div{
+    padding: 0px 70px 0px 70px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around; 
+    text-align: center; 
+    position: relative; 
+}
+
+.from-title > div > a{
+    text-decoration: none;
+    width: 110px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: solid rgba(255, 255, 255, 0.5) 1px;
+    border-radius: 5px;
+    font-family: Arial;
+}
+
+hr.style-eight {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+
+hr.style-eight:after {
+    content: "請輸入文字";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
 }
 
 .from-information{
+    position: relative;
     margin: auto;
     width: 95%;
     height: 85%;
-    background-color: rgb(238, 201, 120);
+    background-color: rgb(255, 255, 255);
 }
