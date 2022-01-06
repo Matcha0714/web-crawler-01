@@ -3,8 +3,10 @@
     <head>
         <meta charset="UTF-8"></meta>
         <title>防疫專家</title>
+        <link rel="shortcut icon" href="icon.ico" type="image/gif"/> 
         <link href="css/menu.css" rel="stylesheet">
         <link href="css/from.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
         <script type="text/javascript" src="test.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     </head>
@@ -14,21 +16,28 @@
                 <ul>
                     <li><a href="index.html">首頁</a></li>
                     <li>
-                        <a href="#">各縣市疫情狀況  <span class="arrow">&#9660;</span></a>
-                        <ul class="sub-menu">
+                        <a>各縣市疫情狀況  <span class="arrow">&#9660;</span></a>
+                        <ul class="sub-menu" style="width: 200px;">
                             <li><a href="new_taipei.html"><span class="arrow">&#9658;</span>  新北市</a></li>
                             <li><a href="taipei.html"><span class="arrow">&#9658;</span>  台北市</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">新聞時勢  <span class="arrow">&#9660;</span></a>
+                    <li><a>新聞時勢  <span class="arrow">&#9660;</span></a>
                         <ul class="sub-menu" style="width: 400px;">
                             <li><a href="https://www.ptt.cc/bbs/nCoV2019/M.1638883798.A.BCB.html" target="_blank"><span class="arrow">&#9658;</span>  雙北疫苗開打! 北市3接種站紓解人潮</a></li>
                             <li><a href="https://www.ptt.cc/bbs/nCoV2019/M.1638784788.A.FA7.html" target="_blank"><span class="arrow">&#9658;</span>  台北車站接種站隨到隨打排長龍民眾樂拿禮券</a></li>
                             <li><a href="https://www.ptt.cc/bbs/nCoV2019/M.1638769678.A.2DF.html" target="_blank"><span class="arrow">&#9658;</span>  北市鼓勵接種 6至9日打莫德納送禮券100</a></li>
                         </ul>
                     </li>
+                    <li><a>確診足跡  <span class="arrow">&#9660;</span></a>
+                        <ul class="sub-menu" style="width: 500px;">
+                            <li><a href="https://udn.com/news/amp/story/120940/5989233" target="_blank"><span class="arrow">&#9658;</span>  未打疫苗新北男確診 衛生局公布足跡遍及板橋周遭</a></li>
+                            <li><a href="https://www.cna.com.tw/news/aloc/202110140147.aspx?fbclid=IwAR2ao2q6YeDlnPUOMaIVnpD0Cy69lOSuby-Qzc0SbXb7cUPbWpK8ED4AoZM" target="_blank"><span class="arrow">&#9658;</span>  北市公布確診者足跡 住神旺飯店、逛明曜百貨</a></li>
+                            <li><a href="https://www.cna.com.tw/news/firstnews/202201055009.aspx?fbclid=IwAR3V9ONtpgyvDSQkpdzLKDRn_8LZSyxJ-Tdq6-5SLLLL2c66TjnjtBVNNtc" target="_blank"><span class="arrow">&#9658;</span>  桃園機場群聚案確診足跡 清潔員連5天到中壢金嗓歌友會</a></li>
+                        </ul>
+                    </li>
                     <li>
-                        <a href="#">防疫網站連結  <span class="arrow">&#9660;</span></a>
+                        <a>防疫網站連結  <span class="arrow">&#9660;</span></a>
                         <ul class="sub-menu" style="width: 300px;">
                             <li><a href="https://www.cdc.gov.tw/" target="_blank"><span class="arrow">&#9658;</span>  衛生福利部疾病管制署</a></li>
                             <li><a href="https://covid-19.nchc.org.tw/" target="_blank"><span class="arrow">&#9658;</span>  COVID-19全球疫情地圖</a></li>
@@ -42,48 +51,65 @@
                 <img src="https://www.travel.taipei/image/67021/1024x768"/>
                 <h1>台灣疫情報告</h1>
                 <div>
-                    <a href="" style="color: rgb(147, 219, 145);">台灣確診數<br>17,155</a>
-                    <a href="" style="color: rgb(130, 230, 255);">新增確診<br>+26</a>
-                    <a href="" style="color: rgb(249, 255, 163);">累積死亡<br>850</a>
-                    <a href="" style="color: rgb(255, 117, 117);">疫苗涵蓋率<br>80.07%</a>
+                    <a style="color: rgb(147, 219, 145);">台灣確診數<br>17,155</a>
+                    <a style="color: rgb(130, 230, 255);">新增確診<br>+26</a>
+                    <a style="color: rgb(249, 255, 163);">累積死亡<br>850</a>
+                    <a style="color: rgb(255, 117, 117);">疫苗涵蓋率<br>80.07%</a>
                 </div>
             </div>
-            <div class="from-information" style="padding-top: 10px;">
-                <hr style="margin-bottom: 30px;">
-                <img src="https://media.discordapp.net/attachments/892460202065010809/928296944923709470/unknown.png" style="width: 80%; padding-left: 100px;"><br>
-                <table>
-                    <tr>
-                        <td></td>
-                        <td>12-17</td>
-                        <td>18-29</td>
-                        <td>30-49</td>
-                        <td>50-64</td>
-                        <td>65-74</td>
-                        <td>75以上</td>
-                        <td>總計</td>
-                    </tr>
-                    <tr>
-                        <td>第一劑</td>
-                        <td>88.8%</td>
-                        <td>96.5%</td>
-                        <td>92.9%</td>
-                        <td>84%</td>
-                        <td>84.5%</td>
-                        <td>73.8%</td>
-                        <td>80%</td>
-                    </tr>
-                    <tr>
-                        <td>第二劑</td>
-
-                        <td>44.9%</td>
-                        <td>80.7</td>
-                        <td>81.5%</td>
-                        <td>76.6</td>
-                        <td>79.7</td>
-                        <td>67.2</td>
-                        <td>69.3%</td>
-                    </tr>
-                </table>
+            <div class="from-information">
+                <hr>
+                <div class="box"><a href="https://covid-19.nchc.org.tw/dt_002-csse_covid_19_daily_reports_vaccine_city2.php" target="_blank">疫苗相關資訊</a></div>
+                    <table class="paleBlueRows">
+                        <caption>全國 COVID-19 公費疫苗各年齡涵蓋率</caption>
+                        <thead>
+                            <tr>
+                                <th></th><th>12-17</th><th>18-29</th><th>30-49</th><th>50-64</th><th>65-74</th><th>75以上</th><th>總計</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td style="font-weight: bold; color: rgb(83, 83, 83);">第一劑</td><td>88.8%</td><td>96.5%</td><td>92.9%</td><td>84.0%</td><td>84.5%</td><td>73.8%</td><td>80.0%</td></tr>
+                            <tr><td style="font-weight: bold; color: rgb(83, 83, 83);">第二劑</td><td>44.9%</td><td>80.7%</td><td>81.5%</td><td>76.6%</td><td>79.7%</td><td>67.2%</td><td>69.3%</td></tr>
+                        </tbody>
+                    </table>
+                    <table class="paleBlueRows" style="margin-top: 30px; margin-bottom: 20px;">
+                        <caption>全國 COVID-19 疫苗封緘數量及實際接種人次(各廠牌別)</caption>
+                        <thead>
+                            <tr>
+                                <th></th><th>AZ</th><th>莫德納</th><th>輝瑞</th><th>高端</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td style="font-weight: bold; color: rgb(83, 83, 83);">疫苗封緘數量</td><td>13,825,250</td><td>10,111,300</td><td>12,348,132</td><td>4,844,694</td></tr>
+                            <tr><td style="font-weight: bold; color: rgb(83, 83, 83);">實際接種人次</td><td>15,031,652</td><td>7,797,634</td><td>10,934,057</td><td>1,486,451</td></tr>
+                        </tbody>
+                    </table>
+                <div class="box"><a href="https://sites.google.com/cdc.gov.tw/2019ncov/taiwan?authuser=0&fbclid=IwAR3k1rniJZ7AIUb1O4VG0K0W_JjpGrGXKNuwjTIkCybg0N0Kg_-S0D3FbBI" target="_blank">疫情資訊</a></div>
+                    <table class="paleBlueRows" style="margin-top: 10px; margin-bottom: 20px;">
+                        <caption>本土確定病例及死亡數統計</caption>
+                        <thead>
+                            <tr>
+                                <th></th><th colspan="2">確定病例</th><th colspan="2">死亡病例</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td class="text">年齡</td><td class="text">男性</td><td class="text">女性</td><td class="text">男性</td><td class="text">女性</td></tr>
+                            <tr><td class="text">0-9</td><td>266</td><td>242</td><td>0</td><td>0</td></tr>
+                            <tr><td class="text">10-19</td><td>290</td><td>270</td><td>0</td><td>0</td></tr>
+                            <tr><td class="text">20-29</td><td>804</td><td>670</td><td>0</td><td>0</td></tr>
+                            <tr><td class="text">30-39</td><td>1122</td><td>1068</td><td>7</td><td>1</td></tr>
+                            <tr><td class="text">40-49</td><td>1007</td><td>1256</td><td>7</td><td>14</td></tr>
+                            <tr><td class="text">50-59</td><td>1216</td><td>1468</td><td>50</td><td>15</td></tr>
+                            <tr><td class="text">60-69</td><td>1558</td><td>1354</td><td>156</td><td>72</td></tr>
+                            <tr><td class="text">70-79</td><td>769</td><td>607</td><td>170</td><td>88</td></tr>
+                            <tr><td class="text">80-89</td><td>264</td><td>249</td><td>104</td><td>82</td></tr>
+                            <tr><td class="text">90以上</td><td>65</td><td>67</td><td>41</td><td>31</td></tr>
+                            <tr><td class="text">總計</td><td>7361</td><td>7251</td><td>535</td><td>303</td></tr>
+                        </tbody>
+                    </table>
+            </div>
+            <div style="margin-top: 19px; text-align: center; font-family: Arial, Helvetica, sans-serif;">
+                <a>1</a>
             </div>
         </div>
         <div style="height: 200px;"></div>

@@ -2,9 +2,11 @@
 <html>
     <head>
         <meta charset="UTF-8"></meta>
+        <title>台北資訊</title>
+        <link rel="shortcut icon" href="icon.ico" type="image/gif"/> 
         <link href="css/menu.css" rel="stylesheet">
         <link href="css/from.css" rel="stylesheet">
-        <title>台北資訊</title>
+        <link href="css/style.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     </head>
     <body style="background-color: rgb(231, 231, 231); margin: 0px;">
@@ -13,21 +15,28 @@
                 <ul>
                     <li><a href="index.html">首頁</a></li>
                     <li>
-                        <a href="#">各縣市疫情狀況  <span class="arrow">&#9660;</span></a>
-                        <ul class="sub-menu">
+                        <a>各縣市疫情狀況  <span class="arrow">&#9660;</span></a>
+                        <ul class="sub-menu" style="width: 200px;">
                             <li><a href="new_taipei.html"><span class="arrow">&#9658;</span>  新北市</a></li>
                             <li><a href="taipei.html"><span class="arrow">&#9658;</span>  台北市</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">新聞時勢  <span class="arrow">&#9660;</span></a>
+                    <li><a>新聞時勢  <span class="arrow">&#9660;</span></a>
                         <ul class="sub-menu" style="width: 400px;">
                             <li><a href="https://www.ptt.cc/bbs/nCoV2019/M.1638883798.A.BCB.html" target="_blank"><span class="arrow">&#9658;</span>  雙北疫苗開打! 北市3接種站紓解人潮</a></li>
                             <li><a href="https://www.ptt.cc/bbs/nCoV2019/M.1638784788.A.FA7.html" target="_blank"><span class="arrow">&#9658;</span>  台北車站接種站隨到隨打排長龍民眾樂拿禮券</a></li>
                             <li><a href="https://www.ptt.cc/bbs/nCoV2019/M.1638769678.A.2DF.html" target="_blank"><span class="arrow">&#9658;</span>  北市鼓勵接種 6至9日打莫德納送禮券100</a></li>
                         </ul>
                     </li>
+                    <li><a>確診足跡  <span class="arrow">&#9660;</span></a>
+                        <ul class="sub-menu" style="width: 500px;">
+                            <li><a href="https://udn.com/news/amp/story/120940/5989233" target="_blank"><span class="arrow">&#9658;</span>  未打疫苗新北男確診 衛生局公布足跡遍及板橋周遭</a></li>
+                            <li><a href="https://www.cna.com.tw/news/aloc/202110140147.aspx?fbclid=IwAR2ao2q6YeDlnPUOMaIVnpD0Cy69lOSuby-Qzc0SbXb7cUPbWpK8ED4AoZM" target="_blank"><span class="arrow">&#9658;</span>  北市公布確診者足跡 住神旺飯店、逛明曜百貨</a></li>
+                            <li><a href="https://www.cna.com.tw/news/firstnews/202201055009.aspx?fbclid=IwAR3V9ONtpgyvDSQkpdzLKDRn_8LZSyxJ-Tdq6-5SLLLL2c66TjnjtBVNNtc" target="_blank"><span class="arrow">&#9658;</span>  桃園機場群聚案確診足跡 清潔員連5天到中壢金嗓歌友會</a></li>
+                        </ul>
+                    </li>
                     <li>
-                        <a href="#">防疫網站連結  <span class="arrow">&#9660;</span></a>
+                        <a>防疫網站連結  <span class="arrow">&#9660;</span></a>
                         <ul class="sub-menu" style="width: 300px;">
                             <li><a href="https://www.cdc.gov.tw/" target="_blank"><span class="arrow">&#9658;</span>  衛生福利部疾病管制署</a></li>
                             <li><a href="https://covid-19.nchc.org.tw/" target="_blank"><span class="arrow">&#9658;</span>  COVID-19全球疫情地圖</a></li>
@@ -47,8 +56,28 @@
                     <a href="" style="color: rgb(255, 117, 117);">疫苗涵蓋率<br>79.2%</a>
                 </div>
             </div>
-            <div class="from-information">
-                template-2
+            <div class="from-information" style="padding-top: 10px;">
+                <hr>
+                <div class="box"><a href="https://covid-19.nchc.org.tw/city_confirmed.php?mycity=%E6%96%B0%E5%8C%97%E5%B8%82&fbclid=IwAR0yXK95vGmmY7F4Y4wi4teMgQidG86ANUP2FCE3WQdUJ8s_O6UIh6NZI3A" target="_blank">疫苗相關資訊</a></div>
+                <table class="paleBlueRows">
+                    <caption>台北 COVID-19 公費疫苗各年齡涵蓋率</caption>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>12-17</th>
+                            <th>18-29</th>
+                            <th>30-49</th>
+                            <th>50-64</th>
+                            <th>65-74</th>
+                            <th>75以上</th>
+                            <th>總計</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td style="font-weight: bold; color: rgb(83, 83, 83);">第一劑</td><td>87.4%</td><td>94.0%</td><td>94.0%</td><td>85.5%</td><td>82.6%</td><td>76.1%</td><td>79.2%</td></tr>
+                        <tr><td style="font-weight: bold; color: rgb(83, 83, 83);">第二劑</td><td>58.5%</td><td>81.6%</td><td>85.2%</td><td>79.5%</td><td>78.1%</td><td>70.2%</td><td>71.3%</td></tr>
+                    </tbody>
+                </table>
             </div>
         </div>
         <div style="height: 200px;"></div>
